@@ -6,7 +6,9 @@ import Button from "react-bootstrap";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <h1>Welcome!</h1>
+      <div className="typewriter">
+      <h1>Hi! I'm Maisie - a UK-based front-end developer!</h1>
+      </div>
       {/* <div className="hero-btns">
         <a href="/portfolio" type="button" class="btn btn-secondary btn-sm">
           See my projects
@@ -15,6 +17,9 @@ function HeroSection() {
           Get in touch
         </a>
       </div> */}
+           <a href="/about-me" type="button" class="btn btn-secondary btn-lg">
+          ENTER
+        </a>
     </div>
   );
 }
